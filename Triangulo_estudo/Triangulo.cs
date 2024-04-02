@@ -8,6 +8,7 @@ namespace ConsoleApp1
         public double A;
         public double B;
         public double C;
+        public double D;
     }
 }
 
