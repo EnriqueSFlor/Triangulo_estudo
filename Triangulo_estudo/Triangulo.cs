@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 
 namespace ConsoleApp1
 {
@@ -8,7 +8,13 @@ namespace ConsoleApp1
         public double A;
         public double B;
         public double C;
-        public double D;
+
+        public double Area() {
+            double p = (A + B + C) / 2.0;
+            return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
+            
+        }
+
     }
 }
 
